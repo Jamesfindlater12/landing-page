@@ -19,7 +19,7 @@ ul, .header-link {
     gap: 20px;
 }
 
-.header, .section-1, .section-2 {
+.header, .section-1, .section-2, .section-3 {
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 210px;
@@ -99,6 +99,19 @@ ul, .header-link {
     margin-bottom: 100px;
 }
 
+.section-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
 .info-header {
     color: #1f2937;
     font-size: 36px;
@@ -130,4 +143,16 @@ ul, .header-link {
     font-size: 18px;
     text-align: center;
     max-width: 200px;
+}
+
+.quote-text {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: last baseline;
 }
