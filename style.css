@@ -20,12 +20,6 @@ ul, .header-link {
 }
 
 
-.header, .section-1, .section-2, .section-3, section-4 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 210px;
-    padding-right: 210px;
-   }
 
 
 
@@ -214,4 +208,9 @@ ul, .header-link {
     justify-content: center;
     color: #F9FAF8;
 
+}
+
+.header, .section-1, .section-2, .section-3, .section-4 {
+    padding-left: 210px;
+    padding-right: 210px;
 }
